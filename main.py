@@ -15,7 +15,7 @@ if not os.path.exists(dir_path):
     print("Creating 'data' directory...")
     os.makedirs(dir_path)
 
-df.to_csv(dir_path + output_file, index=False)
+df.to_csv(dir_path + '/' + output_file, index=False)
 
-if os.path.exists(dir_path + output_file):
+if os.path.exists(dir_path + '/' + output_file):
     print(f"File '{output_file}' created successfully.")
