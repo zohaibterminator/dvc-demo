@@ -192,3 +192,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+#  This is used by data versioning tools like DVC (Data Version Control) to store data files.
+# data folder for data versioning
+/data
