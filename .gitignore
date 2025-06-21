@@ -196,3 +196,4 @@ cython_debug/
 #  This is used by data versioning tools like DVC (Data Version Control) to store data files.
 # data folder for data versioning
 /data
+/S3

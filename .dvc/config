@@ -1,0 +1,4 @@
+[core]
+    remote = remote-dir
+['remote "remote-dir"']
+    url = ../S3
