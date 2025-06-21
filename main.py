@@ -8,6 +8,10 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+new_row_data = {"Name": "Emily", "Age": 22, "City": 'Newark'}
+df.loc[len(df)] = new_row_data
+
 output_file = "output.csv"
 dir_path = os.getcwd() + '/data'
 
